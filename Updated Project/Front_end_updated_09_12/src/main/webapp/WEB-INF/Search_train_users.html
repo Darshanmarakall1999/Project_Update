@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DeleteATrain</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+.register{padding:50%,border:solid 5px,background-color:grey,top-margin:10%}
+body {
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('train.png');
+    background-size:cover;
+     </style>
+<body id="formbody">
+<h2 style="color:red"><marquee direction="right" >----------- Train details ----------</marquee></h2>
+<div class="register">
+    <form id="form_det1" action="Traindetails.html">
+        <label><b>Train Number:</b></label><br>
+        <input type="number" id="1" placeholder="Enter train number" class="FirstName" required><br>
+        <button type="submit">Get details</button>
+    </form>
+    <form id="form_det2" action="admin_options.html">
+        <label><b>Source:</b></label><br>
+        <input type="text" id="2" placeholder="Enter source" class="FirstName" required><br>
+        <button type="submit">Get details</button>
+    </form>
+    <form id="form_det3" action="admin_options.html">
+        <label><b>Destination:</b></label><br>
+        <input type="text" id="3" placeholder="Enter destination" class="FirstName" required><br>
+        <button type="submit">Get details</button>
+    </form>
+
+</div>
+</body>
+</html>
